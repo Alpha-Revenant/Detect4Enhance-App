@@ -1,5 +1,5 @@
 # Detect4Enhance-App
-📘 Detect4Enhance: Detecting and Enhancing Student Engagement in Online Classrooms
+📘 Detect4Enhance: Detecting and Enhancing Student Engagement in Online Classrooms: 
 Detect4Enhance is a Final Year Project (FYP) focused on detecting and improving student engagement during online learning sessions. Using computer vision techniques and deep learning (ResNet50), the system analyzes facial expressions from video input to classify emotional states such as Engaged, Bored, Confused, and Frustrated. The goal is to provide actionable insights to educators and support students through features like real-time detection, graphical engagement reports, and personalized reminders or quizzes.
 
 🔍 Key Features:
