@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "LiveFaceDetectionApp",
+    "slug": "LiveFaceDetectionApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/AppLogo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/splash.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F7E9"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/AppLogo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.ahmadktkdev.LiveFaceDetectionApp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(Detect4Enhance) to access your camera",
+          "microphonePermission": "Allow $(Detect4Enhance) to access your microphone",
+          "recordAudioAndroid": true
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "17cf42f1-0b7a-4549-86b8-260445323c45"
+      }
+    }
+  }
+}
